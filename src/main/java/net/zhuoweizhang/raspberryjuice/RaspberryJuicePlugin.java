@@ -56,7 +56,8 @@ public class RaspberryJuicePlugin extends JavaPlugin implements Listener {
 		if (hostname == null || hostname.isEmpty()) hostname = "0.0.0.0";
 		int port = this.getConfig().getInt("port");
 		getLogger().info("Using host:port - " + hostname + ":" + Integer.toString(port));
-		
+		getLogger().info("mama mia");
+
 		//get location type (ABSOLUTE or RELATIVE) from config.yml
 		String location = this.getConfig().getString("location").toUpperCase();
 		try {
